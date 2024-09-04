@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teddy Brian</title>
+    <link rel="stylesheet" href="assets/css/style.css"> 
+    <!-- MDB -->
+    <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.3.2/mdb.min.css"
+    rel="stylesheet"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Boxicon -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <link rel="icon" type="png" href="assets/img/png/logo-no-background.png">
+</head>
+
+<body>
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg fixed-top navbar-light bg-body-tertiary">
+  <div class="container-fluid n-1">
+    <a class="navbar-brand" href="/">
+      <img
+        src="assets/img/png/logo-no-background.png"
+        height="30"
+        alt="Nidari inc Logo"
+        loading="lazy"
+      />
+    </a>
+    <button
+      data-mdb-collapse-init
+      class="navbar-toggler"
+      type="button"
+      data-mdb-target="#navbarTogglerDemo02"
+      aria-controls="navbarTogglerDemo02"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+    <i class='bx bx-menu-alt-right' ></i>
+    </button>
+    <div class="collapse navbar-collapse n-2" id="navbarTogglerDemo02">
+      <ul class="navbar-nav ms-auto n-3">
+        <li class="nav-item">
+          <a class="nav-link active l-1" aria-current="page" href="/">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link l-1" href="#projects">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link l-1" href="#skills">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link l-1" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link l-1" href="#contacts">Contacts</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero section -->
+<div class="video-background">
+  <video autoplay muted loop id="bg-video">
+      <source src="assets/img/mp4/background-video.mp4" type="video/mp4">
+      Your browser does not support HTML5 video.
+  </video>
+</div>
+
+<!-- <div class="code-bg">
+  <img src="assets/img/png/galaxy-bg.jpg" alt="">
+</div> -->
+
+<section class="hero">
+  <div class="intro" data-aos="zoom-in-right" data-aos-duration="1000">
+    <h3>Teddy Brian</h3>
+  </div>
+  <div class="typewriter">
+    <h1 id="typewriter-text"></h1>
+  </div>
+  <div class="intro-links">
+    <div class="resume">
+        <a href="assets/docs/Brian Teddy Omondi Resume.pdf" target="_blank">Resume <i class='bx bx-file' ></i></a>
+    </div>
+    <div class="github">
+        <a href="https://github.com/Niarb144" target="_blank">Github <i class='bx bxl-github'></i></a>
+    </div>
+  </div>    
+</div>
+</section>
+
+<!-- Projects -->
+<section class="projects" id="projects">
+    <div class="project-cards">
+        <div class="body-container" data-aos="fade-up"
+        data-aos-duration="1000">
+
+            <h1>Projects</h1>
+            <div class="card__container">
+                <!-- Imaara Mall Card -->
+                <article class="card__article" data-aos="zoom-in" data-aos-duration="1100">
+                    <a href ="https://theimaara.co.ke" target="_blank"><img src="assets/img/png/imaara-main.png" alt="The Imaara Mall" class="card__img"></a>
+                    <div class="card__data">
+                        <span class="card__description">The Imaara Mall</span>                           
+                        <ul>
+                            <li>HTML</li>
+                            <li>PHP</li>
+                            <li>Javascript</li>
+                            <li>MySQL</li>
+                            <li>CMS</li>
+                        </ul>  
+                    </div>
+                </article>  
+                
+                <!-- EJS Blog Website -->
+                <article class="card__article" data-aos="zoom-in" data-aos-duration="1300">
+                    <a href="https://github.com/Niarb144/Web-Dev/tree/main/Blog" target="_blank"><img src="assets/img/png/blog.png" alt="Ted's Blogs" class="card__img"></a>
+                    <div class="card__data">
+                        <span class="card__description">Blog Website</span>                           
+                        <ul>
+                            <li>Node JS</li>
+                            <li>EJS</li>
+                            <li>Javascript</li>
+                            <li>Axios</li>
+                            <li>Express</li>
+                        </ul>  
+                    </div>
+                </article>   
+
+                <!-- Hero X -->
+                <article class="card__article" data-aos="zoom-in" data-aos-duration="1500">
+                    <a href="https://github.com/Niarb144/Hero-X" target="_blank"><img src="assets/img/png/hero-x.png" alt="Hero X" class="card__img"></a>
+                    <div class="card__data">
+                        <span class="card__description">Hero X</span>                           
+                        <ul>
+                            <li>Node JS</li>
+                            <li>EJS</li>
+                            <li>Javascript</li>
+                            <li>Axios</li>
+                            <li>REST API</li>
+                            <li>Express</li>
+                        </ul>  
+                    </div>
+                </article>  
+                
+                <!-- Imaara Backend -->
+                <!-- <article class="card__article">
+                    <a href ="https://theimaara.co.ke" target="_blank"><img src="/img/png/imaara-shops.png" alt="The Imaara Mall" class="card__img"></a>
+                    <div class="card__data">
+                        <span class="card__description">Imaara Mall Backend</span>                           
+                        <ul>
+                            <li>HTML</li>
+                            <li>PHP</li>
+                            <li>Javascript</li>
+                            <li>MySQL</li>
+                        </ul>  
+                    </div>
+                </article> -->
+            </div>      
+            
+            <div class="card__container">
+                                 
+            </div>  
+        </div>
+    </div>
+    
+</section>
+
+<!-- Skills -->
+<section class="skills parallax" id="skills">
+    
+    <div class="skills_tab" data-aos="fade-up"
+    data-aos-duration="1000">
+        <h1>Skills</h1>
+        <div class="row w-100 skills_content">
+            <div class="col-3 d-1">
+              <!-- Tab navs -->
+              <div
+                class="nav flex-column text-left d-2"
+                id="v-tabs-tab"
+                role="tablist"
+                aria-orientation="vertical"
+              >
+                <a
+                  data-mdb-tab-init
+                  class="nav-link active a-1"
+                  id="v-tabs-home-tab"
+                  href="#v-tabs-home"
+                  role="tab"
+                  aria-controls="v-tabs-home"
+                  aria-selected="true"
+                  data-aos="fade-right"
+                  data-aos-duration="1100"
+                  >Web-Dev</a
+                >
+                <a
+                  data-mdb-tab-init
+                  class="nav-link a-1"
+                  id="v-tabs-profile-tab"
+                  href="#v-tabs-profile"
+                  role="tab"
+                  aria-controls="v-tabs-profile"
+                  aria-selected="false"
+                  data-aos="fade-right"
+                  data-aos-duration="1300"
+                  >UI/UX Design</a
+                >
+                <a
+                  data-mdb-tab-init
+                  class="nav-link a-1"
+                  id="v-tabs-messages-tab"
+                  href="#v-tabs-messages"
+                  role="tab"
+                  aria-controls="v-tabs-messages"
+                  aria-selected="false"
+                  data-aos="fade-right"
+                  data-aos-duration="1600"
+                  >Game-Dev</a
+                >
+    
+              </div>
+              <!-- Tab navs -->
+            </div>
+          
+            <div class="col-9 info">
+              <!-- Tab content -->
+              <div class="tab-content" id="v-tabs-tabContent">
+                <div
+                  class="tab-pane fade show active"
+                  id="v-tabs-home"
+                  role="tabpanel"
+                  aria-labelledby="v-tabs-home-tab"
+                >
+                  <ul data-aos="fade-left" data-aos-duration="1100">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Javascript</li>
+                    <li>PHP</li>
+                    <li>MySQL</li>
+                    <li>NodeJS</li>
+                    <li>Express</li>
+                    <li>Axios</li>
+                    <li>Git</li>
+                  </ul>
+                </div>
+                <div
+                  class="tab-pane fade"
+                  id="v-tabs-profile"
+                  role="tabpanel"
+                  aria-labelledby="v-tabs-profile-tab"
+                >
+                  <ul>
+                    <li>Figma</li>
+                    <li>Canva</li>
+                    <li>Adobe Photoshop</li>
+                  </ul>
+                </div>
+                <div
+                  class="tab-pane fade"
+                  id="v-tabs-messages"
+                  role="tabpanel"
+                  aria-labelledby="v-tabs-messages-tab"
+                >
+                  <ul>
+                    <li>Unity</li>
+                    <li>C#</li>
+                    <li>3D Modelling</li>
+                  </ul>
+                </div>
+              </div>
+              <!-- Tab content -->
+            </div>
+          </div>
+
+
+          <!-- For mobile -->
+        <!-- Tabs navs -->
+        <ul class="nav nav-tabs mb-3 d-3" id="ex1" role="tablist">
+          <li class="" role="presentation">
+            <a
+              data-mdb-tab-init
+              class="nav-link active a-1"
+              id="ex1-tab-1"
+              href="#ex1-tabs-1"
+              role="tab"
+              aria-controls="ex1-tabs-1"
+              aria-selected="true"
+              >Web-Dev</a
+            >
+          </li>
+          <li class="nav-item" role="presentation">
+            <a
+              data-mdb-tab-init
+              class="nav-link a-1"
+              id="ex1-tab-2"
+              href="#ex1-tabs-2"
+              role="tab"
+              aria-controls="ex1-tabs-2"
+              aria-selected="false"
+              >UI/UX Design</a
+            >
+          </li>
+          <li class="nav-item" role="presentation">
+            <a
+              data-mdb-tab-init
+              class="nav-link a-1"
+              id="ex1-tab-3"
+              href="#ex1-tabs-3"
+              role="tab"
+              aria-controls="ex1-tabs-3"
+              aria-selected="false"
+              >Game Dev</a
+            >
+          </li>
+        </ul>
+        <!-- Tabs navs -->
+
+        <!-- Tabs content -->
+        <div class="tab-content d-3" id="ex1-content">
+          <div
+            class="tab-pane fade show active"
+            id="ex1-tabs-1"
+            role="tabpanel"
+            aria-labelledby="ex1-tab-1"
+          >
+            <ul data-aos="fade-left" data-aos-duration="1100">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Javascript</li>
+              <li>PHP</li>
+              <li>MySQL</li>
+              <li>NodeJS</li>
+              <li>Express</li>
+              <li>Axios</li>
+              <li>Git</li>
+            </ul>
+          </div>
+          <div class="tab-pane fade" id="ex1-tabs-2" role="tabpanel" aria-labelledby="ex1-tab-2">
+            <ul>
+              <li>Figma</li>
+              <li>Canva</li>
+              <li>Adobe Photoshop</li>
+            </ul>
+          </div>
+          <div class="tab-pane fade" id="ex1-tabs-3" role="tabpanel" aria-labelledby="ex1-tab-3">
+            <ul>
+              <li>Unity</li>
+            </ul>
+          </div>
+        </div>
+        <!-- Tabs content -->
+    </div>
+</section>
+
+<!-- About -->
+<section class="about" id="about">
+    <div class="about-1" data-aos="fade-up"
+    data-aos-duration="1000">
+        <h1>About</h1>
+        <div class="text" data-aos="fade-right" data-aos-duration="1100">
+            <p>I am a fullstack web 
+                developer from Nairobi Kenya. I 
+                graduated from Strathmore university 
+                with a BSC in Informatics and Computer Science. 
+            </p>
+        </div>
+
+        <div class="image" data-aos="fade-left" data-aos-duration="1200">
+            <img src="assets/img/png/logo-color.png" alt="About Photo">
+        </div>
+
+        <div class="links" data-aos="fade-up-right" data-aos-duration="1260">
+            <div class="resume">
+                <a href="assets/docs/Brian Teddy Resume.pdf" target="_blank">Resume <i class='bx bx-file' ></i></a>
+            </div>
+            <div class="github">
+                <a href="https://github.com/Niarb144" target="_blank">Github <i class='bx bxl-github'></i></a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contacts -->
+<section class="contacts parallax" id="contacts">
+    <div class="contacts-1" data-aos="fade-up"
+    data-aos-duration="1000">
+        <h1>Contacts</h1>
+        <p>Reach me via the contacts below</p>
+        <div class="contact-data">
+            
+            <div class="email" data-aos="zoom-in" data-aos-duration="1100"><h4><i class='bx bx-envelope'></i> teddybrian543@gmail.com</h4></div>
+            <div class="line"></div>
+            <div class="mobile" data-aos="zoom-in" data-aos-duration="1300"><h4><i class='bx bxs-phone'></i> <span>+254</span> 715551982</h4></div>
+            <div class="line"></div>
+            <div class="socials" data-aos="zoom-in" data-aos-duration="1500">
+                <ul>
+                    <li><a href="https://x.com/BrianTeddy7" target="_blank"><i class='bx bxl-twitter bx-sm' ></i></a></li>
+                    <li><a href="https://www.instagram.com/pendoria_/" target="_blank"><i class='bx bxl-instagram-alt bx-sm' ></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/teddy-brian-7a0057228/" target="_blank"><i class='bx bxl-linkedin bx-sm' ></i></a></li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- <div class="contact-form">
+            <p><span>Or</span> leave me a message below.</p>
+            <form action="assets/js/mail.js" method="POST" class="c-1">
+                <input type="email" name="email" id="email" placeholder="Your email">
+                <input type="text" name="subject" id="subject" placeholder="Subject">
+                <textarea name="message" id="message" placeholder="Leave a message"></textarea>
+                <button type="submit" class="btn-1">Send</button>
+            </form>
+        </div> -->
+    </div>
+</section>
+
+<!-- Footer -->
+<footer>
+    <p>By Teddy Brian 2024.</p>
+  </footer> 
+  
+  <!-- MDB -->
+  <script
+  type="text/javascript"
+  src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.3.2/mdb.umd.min.js"
+  ></script>
+  
+  <!-- Animate On Scroll -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+      AOS.init();
+    </script>
+  
+  <script src="assets/js/typewriter.js"></script>
+  <script src="assets/js/active-nav.js"></script>
+  <script src="assets/js/active-highlight.js"></script>
+  <script scr="assets/js/mail.js"></script>
+  </body>
+  </html>
+
