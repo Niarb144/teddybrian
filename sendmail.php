@@ -16,7 +16,7 @@ if(isset($_POST['email'])){
     $mail->isSMTP();
     $mail->Host = "smtp.gmail.com";
     $mail->SMTPAuth = true;
-    $mail->Username = "yourmail@gmail.com"; //enter your email here. This email will be used to send the emails within your site
+    $mail->Username = "teddybrian543@gmail.com"; //enter your email here. This email will be used to send the emails within your site
     $mail->Password = "xxxx xxxx xxxx xxxx"; //google 16 digit authentication code
     $mail->Port = 465;
     $mail->SMTPSecure = "ssl";
