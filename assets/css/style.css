@@ -149,7 +149,7 @@ section{
 }
 
 .projects{
-    height: 100vh;
+    height: auto;
     background: url('/assets/img/png/logo-blue.png') no-repeat center center fixed;
     background-size: cover;
     background-attachment: fixed;
